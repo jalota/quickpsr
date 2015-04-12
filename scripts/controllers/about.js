@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the quickpsrApp
  */
-angular.module('quickpsrApp')
+angular.module('QuickPsrApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

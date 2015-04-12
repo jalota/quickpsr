@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('quickpsrApp', [
+  .module('QuickPsrApp', [
     'ngAnimate',
     'ngResource',
     'ngRoute'
@@ -23,6 +23,10 @@ angular
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+      })
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
       })
       .otherwise({
         redirectTo: '/'
